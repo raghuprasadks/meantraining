@@ -1,0 +1,181 @@
+  ODD OR EVEN
+-----------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Odd or Even</title>
+</head>
+<body>
+	<h1>To find whether odd or even</h1>
+</body>
+<script type="text/javascript">
+	function Oddandeven(num){
+
+		if(num%2==0){
+			console.log('even');
+		}
+		else{
+			console.log('odd num');
+		}
+		
+		}
+
+result=Oddandeven(20);
+		console.log(result);
+	
+
+	 
+</script>
+
+
+</body>
+</html>
+------------------------------------------------------------------------------------
+             SIMPLE INTEREST
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple interest</title>
+</head>
+<body>
+    <h1>To find simple intrest</h1>
+    <script type="text/javascript">
+     function simpleinterest(p,n,r){
+			
+		result=p*n*r/100;
+
+	}
+		res=simpleinterest(2000,12,5);
+		console.log('simpleinterest'+result);
+	</script>
+
+</body>
+</html>
+----------------------------------------------------------------------------------------
+             CELCIUS TO FARENHEIT CONVERSION        
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conversion</title>
+</head>
+<body>
+	<h1>celcius to farnheit</h1>
+	<script type="text/javascript">
+		function Conversion(celcius){
+			a=(celcius*9/5)+32;
+			console.log('celcius to farnheit value is'+a+"f");
+		}
+		function Conversion(farnheit){
+			a=(farnheit-32)*5/9;
+			console.log('farenheit to celcius value is'+a+"c");
+		}
+		a=Conversion(78);
+		a=Conversion(54);
+	</script>
+
+</body>
+</html>
+--------------------------------------------------------------------------------------------
+                         EB BILL FOR A HOUSE
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EB BILL</title>
+</head>
+<body>
+	<h1>EB BILL FOR A HOUSE</h1>
+	<script type="text/javascript">
+		function Ebbill(unit){
+			if(unit<=100){
+				result=unit*2;
+				console.log('EB bill is'+result);
+			}
+			else if(unit>100&&unit<=200){
+				result=unit*3;
+				console.log('EB bill is'+result);
+			}
+
+			else if(unit>200){
+				result=unit*4;
+				console.log('EB bill is'+result);
+
+			}
+			else{
+				console.log('EB bill not available')
+			}
+
+			}
+			res=Ebbill(600);
+		</script>
+
+		
+
+</body>
+</html>
+-------------------------------------------------------------------------------------------
+                       PRIME NUMBER OR NOT
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prime</title>
+</head>
+<body>
+	<h1>To find prime or not prime</h1>
+	<script type="text/javascript">
+		function prime(n){
+			count=0;
+			for(i=1;i<=n;i++){
+				if(n%i==0){
+                 count=count+1;
+				}
+			}
+			if(count==2){
+				console.log("PRIME NUM");
+			}
+				else{
+					console.log("NOT PRIME");
+				}
+			}
+
+			
+			a=prime(27);
+		</script>
+
+			
+		
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
